@@ -98,6 +98,8 @@ class App extends Component {
       cart: this.state.cart,
     };
 
+    this.myCodeIsPerfect();
+
     // generate unique transactionId and set as Sentry tag
     const transactionId = getUniqueId();
     // Sentry.configureScope((scope) => {

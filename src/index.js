@@ -6,7 +6,7 @@ import App from "./components/App";
 import * as Sentry from "@sentry/react";
 
 Sentry.init({
-  dsn: "https://e046b15ba12e26cb02c9739d707909d4@o4510073937068032.ingest.de.sentry.io/4510073976520784",
+  dsn: "https://d7c05a8efa9a5d2a8980c9c3982b28eb@o4511450917634048.ingest.us.sentry.io/4511451558707200",
   integrations: [
       Sentry.browserTracingIntegration(),
       // send console.log, console.warn, and console.error calls as logs to Sentry
