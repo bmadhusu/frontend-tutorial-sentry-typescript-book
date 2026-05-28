@@ -98,7 +98,7 @@ class App extends Component {
       cart: this.state.cart,
     };
 
-    this.myCodeIsPerfect();
+    this.myCodeIsMorePerfect();
 
     // generate unique transactionId and set as Sentry tag
     const transactionId = getUniqueId();
